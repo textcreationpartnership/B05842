@@ -1,0 +1,598 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse on the love of Christ, by William Sheppard, A.M. and minister of the Gospel at Oundle in Northamptonshire.</title>
+            <author>Sheppard, William, d. 1724.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 81 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B05842</idno>
+            <idno type="STC">Wing S3219B</idno>
+            <idno type="STC">ESTC R184080</idno>
+            <idno type="EEBO-CITATION">52614933</idno>
+            <idno type="OCLC">ocm 52614933</idno>
+            <idno type="VID">176173</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B05842)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 176173)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2763:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse on the love of Christ, by William Sheppard, A.M. and minister of the Gospel at Oundle in Northamptonshire.</title>
+                  <author>Sheppard, William, d. 1724.</author>
+               </titleStmt>
+               <extent>32 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Tho. Parkhurst ...,</publisher>
+                  <pubPlace>London, :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: dark, print show-through with loss of text.</note>
+                  <note>Reproduction of original in: National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Jesus Christ --  Knowableness --  Early works to 1800.</term>
+               <term>God --  Worship and love --  Early works to 1800.</term>
+               <term>Theology, Doctrinal --  History --  17th century --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-06</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-07</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-07</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:176173:1"/>
+            <p>A DISCOURSE ON <hi>The Love of Chriſt.</hi>
+            </p>
+            <p>BY <hi>WILLIAM SHEPPARD,</hi> A. M. and Miniſter of the Goſpel at <hi>Oundle</hi> in <hi>Northamptonſhire.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Tho. Parkhurst,</hi> at the <hi>Bible and Three Crowns</hi> in <hi>Cheapſide,</hi> near <hi>Mercers-Chapel,</hi> 1695.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:176173:2"/>
+            <pb n="3" facs="tcp:176173:2"/>
+            <epigraph>
+               <bibl>EPHES. iii. 19.</bibl>
+               <q>—And to know the love of Christ, which paſſeth knowledge.</q>
+            </epigraph>
+            <p>THE Apoſtle <hi>Paul</hi> was here diving into the deeps of the Love of Chriſt; and diving into it, fell into a La<g ref="char:EOLhyphen"/>byrinth, and an immenſe Ocean, which ſet him into an Admiration. Indeed, after our greateſt Searchings into, and Diſcoveries of the Love of Chriſt, the moſt we can doe, is <hi>admire,</hi> not <hi>comprehend:</hi> So it was with the Apoſtle here; when he ſet to ſearch, he found it unſearchable; his Line was too ſhort, his Meaſure too narrow to reach this <hi>heighth,</hi> and <hi>depth,</hi> and <hi>length,</hi> and <hi>breadth:</hi> Therefore he draws this Concluſion, That it is a Love beyond Knowledge. We may Expreſs <hi>much,</hi> but we may Conceive <hi>more:</hi> This Love is not only above all we can expreſs, but alſo above all we can conceive; above Knowledge.</p>
+            <p>
+               <hi>To know the Love of Christ.]</hi> Not excluding, but including the Love of the Father. It is called the Love of <hi>Chriſt,</hi> becauſe the Love of the whole <hi>Trinity</hi> is convey'd to us in and through <hi>Chriſt.</hi>
+            </p>
+            <p>
+               <hi>Which paſſeth Knowledge.]</hi> Excelleth, exceedeth Knowledge, (as the word in the Original ſignifies; <hi>viz.</hi> wholly to comprehend. Every true Believer knoweth ſo much of it, by the teaching of the Spirit of God, as is neceſſary to Salvation; yet the more he know<g ref="char:EOLhyphen"/>eth, the more he knoweth it to be Incomprehenſible, and paſt Knowledge.</p>
+            <p>We may take Three general Notes from the words:</p>
+            <p>
+               <hi>1st.</hi> That the Love of Chriſt to Believers is ſo rich and unſearch<g ref="char:EOLhyphen"/>able, ſo vaſt and boundleſs, ſo matchleſs and unparallel, ſo im<g ref="char:EOLhyphen"/>menſe and infinite, that the beſt of Saints cannot underſtand it fully, ſo as to be able to expreſs the infinite and unſearchable Riches of
+<pb n="4" facs="tcp:176173:3"/> it: They have a true knowledge of it, but they know it but in part, 1 <hi>Cor.</hi> 13. 9.</p>
+            <p>
+               <hi>2dly.</hi> Though this Love of Chriſt be unſearchable, yet every true Believer may and does attain to a certain meaſure of the know<g ref="char:EOLhyphen"/>ledge of it; ſo far as to know it to be infinite and unſearchable: They may know it ſo far, as to ſtand and wonder, ſtand and admire, not being able perfectly to comprehend it: and this is the Work of S<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ints.</p>
+            <p>
+               <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> That the Unſearchableneſs of the Love of Chriſt ſhould <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> far from diſcouraging Believers, that it ſhould ſo much the more encourage and engage them to ſearch after it: for he ſeemeth to add this, <hi>paſſeth knowledge,</hi> to provoke the more to ſeek after it.</p>
+            <p>The Doctrine we ſhall inſiſt upon, as containing the ſum and marrow of the words, is this:</p>
+            <p>
+               <hi>Doct.</hi> That the Love of Chriſt to Believers is a ſurpaſſing Love, an infinite, unparallel Love: Therefore we read of the Unſearch<g ref="char:EOLhyphen"/>able Riches of Chriſt, <hi>Epheſ.</hi> 3. 8.—Here are Two things to be ſhown:</p>
+            <list>
+               <item>I. <hi>What this Love of Chriſt is.</hi>
+               </item>
+               <item>II. <hi>Why Chriſt loves Believers with ſuch a ſurpaſſing Love.</hi>
+               </item>
+            </list>
+            <p>1. What this Love of Chriſt to Believers is? And here, what ſhall we ſay? Doth not the Text ſay, <hi>it is paſt knowledge?</hi> Have not we already ſaid, it is ſuch as we cannot expreſs? ſuch as we cannot conceive? How ſhall we dare to attempt ſuch an Under<g ref="char:EOLhyphen"/>taking as this? May not the Lord ſay, <hi>Who is this that darkeneth counſel by words without knowledge?</hi> Job 38. 2. May we not ſay here, as St. <hi>Paul</hi> ſpeaks of his Revelation? 2 <hi>Cor.</hi> 12. 4. <hi>He was caught up into Paradiſe, and heard unſpeakable words, which it is not lawful</hi> (you may read, <hi>not poſſible) for a man to utter:</hi> The Original is, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>worldleſs words;</hi> ſuch things as words will not bear, cannot bear: The Tongue of Men nor Angels cannot declare this Love in the unſearchable, infinite nature of it: Therefore the moſt we can doe, is to ſpeak ſomething of the Properties of it; which we ſhall endeavour to give ſome hints of, according to Scripture-light</p>
+            <p n="1">
+               <pb n="5" facs="tcp:176173:3"/>1. It is great Love. So great as ſurpaſſeth Knowledge. The Love of Chriſt to Believers is ſo great, and they are ſo dear to him, that he thought nothing too much for them: <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>ſupereminens, ſublimis, excel<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a magnitudo:</hi> He thought nothing too much to give; therefore, becauſe he could <hi>give</hi> them no greater, he gave them Himſelf: Nothing too much to doe for them: as <hi>Jacob</hi> ſerved twice ſeven Years for <hi>Rachael,</hi> and they ſeemed to him but a few Days, becauſe he loved her, <hi>Gen.</hi> 29. 20. Nothing too much to <hi>ſuffer</hi> for them.</p>
+            <p n="1">1. He ſuffered in his Body, Reviling, Spitting, Buffeting, Scourg<g ref="char:EOLhyphen"/>ing: His whole Life was but a Suffering; He ſuffered to his Heart's Blood, <hi>Phil.</hi> 2. 6, 7, 8.</p>
+            <p n="2">2. He ſuffer'd in his Soul: which were the higheſt Suffer<g ref="char:EOLhyphen"/>ings.</p>
+            <p n="1">1. He endur'd the Curſes, yea, all the Curſes of the Law, which his People ſhould have borne. Oh, the thouſands of dreadful In<g ref="char:EOLhyphen"/>dictments the Law had againſt thee! The Thunder and Lightning it denounces! The fire and Brimſtone it ſpits at thee! All this did this loving Jeſus bear for thee that art a true Believer, and bear away, <hi>Gal.</hi> 3. 13.</p>
+            <p n="2">2. He endured the Wrath of God, <hi>Iſa.</hi> 53. 4, 5, 6. Oh, what Love was this! Chriſt hath borne Griefs, but they were our Griefs! He carried Sorrows, but they were our Sorrows! He was wounded for Tranſgreſſions, but they were our Tranſgreſſions! He was bruiſed, but it was for our Iniquities! He was chaſtiſed, but it was that we might have Peace! He had Stripes, but it was that we might be healed! O Believer, be aſtoniſh'd at this Love! Chriſt had the Curſe, that thou might'ſt have the Bleſſing! Chriſt had the Wrath, that thou might'ſt have the Love! Chriſt had the Miſery, that thou might'ſt have th Glory!</p>
+            <p n="3">3. He endured Dereliction of God, at leaſt in his own apprehen<g ref="char:EOLhyphen"/>ſion, for a time. Believer, Think thou heareſt Chriſt crying out, <hi>My God! My God! Why haſt thou forſaken me?</hi> As Man, he crieth out, <hi>Why haſt thou forſaken me?</hi> as God, <hi>My God! My God!</hi> and all this for thee! Nay, Chriſt was really forſaken of God for a time, as to the ſenſible and comfortable Manifeſtations of God's Preſence.</p>
+            <p n="4">4. He endured the Torments of Hell. Not that Chriſt did deſcend into the Local Hell, though I believe there is a Place<g ref="char:punc">▪</g> where the Damned ſuffer the Vengeance of Eternal Fire; that was
+<pb n="6" facs="tcp:176173:4"/> not conſonant with the Dignity of his Perſon, nor Office of a Me<g ref="char:EOLhyphen"/>diator: But, Chriſt did endure ſuch Torments as did tantamount the Torments of Hell: <hi>Pſal. 18. 5. The ſorrows of hell compaſſed me about:</hi> For Chriſt endured all that Wrath that was due for all the Sins of all the Elect, from the Beginning to the End of the World, which they muſt elſe have endured to all Eternity; they muſt have ſuffered, but could never ſatisfie: Therefore the Damned muſt ſuffer for ever, becauſe they cannot ſatisfie for ever: Chriſt ſuffered and ſatisfied. Oh, what Love was here to Believers! Chriſt emptied himſelf of all his Glory for them: He came down from Heaven to Earth: He took their Nature, their Sins, their Curſe, their Wrath, their Hell: He fulfilled the Law, he ſatisfied Divine juſtice; He pray'd, he mourn'd, he liv'd, he died for them: Lo, how he loved them!</p>
+            <p n="2">2. Chriſt's Love to Believers is a Free Love.</p>
+            <p n="1">1. Undeſerved Love, <hi>Ezek.</hi> 16. 3, 4, 5, 6, 8. They were pol<g ref="char:EOLhyphen"/>luted in their Blood; and when they were in their Bloud, Chriſt ſaid to them, Live. And why? Why, it was a time of Love, <hi>Tit.</hi> 3. 3, 4, 5, 6, 7. They were alſo, ſometimes, as well as others, fooliſh, diſobedient, deceived, ſerving divers Luſts and Pleaſures, <hi>&amp;c.</hi> It was the meer Kindneſs and Love of God appeared to them, juſtifying them freely by his Grace, <hi>Rom. 3. 24. 1 Cor.</hi> 6. 9, 10, 11. We can provoke him to Wrath, but not move God to Love: it ariſeth from Himſelf; God's Chuſing, Calling, Juſtifying, Adopt<g ref="char:EOLhyphen"/>ing, Saving Love, is all free, undeſerved Love.</p>
+            <p n="2">2. Undeſired Love, <hi>Iſai.</hi> 65. 1. This is the Voice of the Lord, <hi>I am ſought of them that asked not for me; I am found of them <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſought me not.</hi> Not ſo much as a Prayer! What could be leſs tha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a little Breath, to ſhew there was nothing done to procure th<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Love? It is Free Love.</p>
+            <p n="3">3. Chriſt's Love to Believers is a ſingular Love, a diſtinguiſhing Love. It is not to all, but to ſome; not to many, but a <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>Amos 3. 2. You only have I known:</hi> Jer. 3. 14. <hi>One of a city, two <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> family:</hi> two in a bed, the one taken, and the other left; the <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> band taken, and the Wife left; the Wife taken, and the Husban<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> left; the Child taken, and the Parents left. Oh, this makes it <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> niſhing Love, <hi>Joh.</hi> 14. 22 Believer, Doſt not thou find this <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Love raviſh thy Heart? Doth not thy Heart burn within thee, whilſt thou readeſt theſe Lines?</p>
+            <p n="4">
+               <pb n="7" facs="tcp:176173:4"/>4. The Love of Chriſt to Believers is a Sincere Love; a True, Unfeigned, Cordial Love: His Heart is in it: <hi>Cant.</hi> 4. 9. It is Chriſt's Voice to his Spouſe; his Heart was ſet upon her, even to Raviſhment: ſo it is upon every ſincere Believer: And it will ap<g ref="char:EOLhyphen"/>pear to be no counterfeit Love, if you conſider what he hath done, what he hath ſuffer'd for them: A greater Demonſtration he could not give, than his Dying for them, <hi>Joh</hi> 15. 3<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </p>
+            <p n="5">5. Chriſt's Love to Believers is a Superlative Love; a Love of the Higheſt degree; a Love above a<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> above all his, above his Glory, for he left it for them; above his Life, for he laid it down for them; a Love above all other; a Love to the Believer above all other Per<g ref="char:EOLhyphen"/>ſons; to paſs by thouſands, and love thee: a Love above all other Love, to lay down his Life; and that, not for a near, dear, choice Friend, but a vile, wicked, cruel Enemy. I never heard nor read but of one in all my Life, that lay'd down his Life for ano<g ref="char:EOLhyphen"/>ther, and that was a Child for his Father: A Citizen of <hi>Toledo</hi> being condemn'd to die, his Son offer'd to die for him, and was accepted. This was a Child for his Father: not an Enemy, nor an ordinary Friend; but the beſt of Friends, a Father. But Chriſt died, not for a Father, a Friend, but an Enemy, a Wretch, a Rebel, <hi>Rom.</hi> 5. 8, 10.</p>
+            <p n="6">6. Chriſt's Love to Believers is an Inſuperable Love; a Love that nothing can poſe: No Difficulty that Chriſt met with could poſe it: When Chriſt had undertook, and God ſtood upon the ful<g ref="char:EOLhyphen"/>filling all Righteouſneſs, and ſatisfying Juſtice to the full; that after he had, by his active Obedience, done all that could be required, there muſt be paſſive Obedience too: yet Chriſt did not ſhrink at this neither; and after he had ſuffer'd much, many Indignities from Men, and Severities from God, as in the Garden he ſweat Drops of Blood; yet it muſt come to his Life: He did not ſpare that nei<g ref="char:EOLhyphen"/>ther: <hi>Joh.</hi> 15. 13. <hi>Was there ever any love like unto this love?</hi> Cer<g ref="char:EOLhyphen"/>tainly we may ſay here, as <hi>David of Jonathan, Thy love paſſed the love of women.</hi>
+            </p>
+            <p n="7">7. Chriſt's Love to Believers is an inſeparable Love. Here are Two things:</p>
+            <p n="1">1. It is Conſtant Love. Men will love to day, and hate to mor<g ref="char:EOLhyphen"/>row; but when once God ſets his Love upon a Soul, he never takes it off more: where he loves, he always loves: whatſoever their Carriage is towards Him, when they deſerve to be hated;
+<pb n="8" facs="tcp:176173:5"/> whatſoever His Carrriage ſeems to be towards them: When he chides, he loves; when he hides, he loves.</p>
+            <p n="1">1. When he chides, he loves, <hi>Rev.</hi> 3. 19. He chaſtens, yet he loves, <hi>Heb.</hi> 12. 6. He viſits with the Rod, yet ſtill loves, <hi>Pſal.</hi> 89. 30, 31, 32, 33.</p>
+            <p n="2">2. When he hides, he loves, <hi>Iſa.</hi> 54. 7, 8, 10. <hi>For his iniquity I was wroth, and ſmote him: I hid me,</hi> ſays God, <hi>Iſa.</hi> 57. 16, 17, 18. It ſeems as if it was God's Expectation that he ſhould turn: But did he turn? No, he went on frowardly in the way of his Heart. What might we expect that the Lord ſhould ſay now, but that I will take away my Love for ever! I will curſe him. Plague him, Damn him! But is it ſo? No, he loves ſtill Oh, to be ad<g ref="char:EOLhyphen"/>mired Love! See what follows in <hi>ver. 18. I will heal him, yea, and reſtore comforts to him, and to his mourners too.</hi>
+            </p>
+            <p n="2">2. It is permanent and abiding Love; laſting, yea, everlaſting Love: It reaches from Eternity to Eternity, from eternal Chuſi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to eternal Glorifying: an unchangeable Love. Though Chriſt's Face change, ſometime ſmile, ſometimes frown; though his Hand, his Actions change, ſometimes Hand-mercies Comforts, ſometimes Hand-ſtrokes: yet his Heart never changes: whom he loves, he loves to the end, <hi>Joh.</hi> 13 1.</p>
+            <p>II. Why Chriſt loves Believers with ſuch a ſurpaſſing Love.</p>
+            <p n="1">1. Becauſe theſe are they on whom the Riches of Grace ſhall be advanced for ever. This is the great and glorious Deſign that was upon God's Heart from all Eternity, to advance the Riches of his Grace in Chriſt upon poor Sinners. Now, theſe are the Souls that this glorious Deſign ſhall be advanced on; and they muſt needs be beloved Ones, that ſerve for the advancement of this glorious De<g ref="char:EOLhyphen"/>ſign. God may magnifie his Juſtice upon Perſons, and yet hate them; but he never magnifies his Mercy and Grace on any, but he loves them. O Believers! all the great things that ever God did, was for You! Creation was for you; Chriſt for you; Redemption was for you: That's the firſt Reaſon why Believers are ſo beloved <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> becauſe they are Perſons ſet apart to advance the Riches of God<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Grace in Chriſt, <hi>Pſal.</hi> 4. 3. Theſe are they the Lord ſet apart fo<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> himſelf, for himſelf to enjoy, for himſelf to converſe with, for him<g ref="char:EOLhyphen"/>ſelf to delight in to all Eternity.</p>
+            <p n="2">2. Becauſe they are lovely in his ſight: not as they are in them<g ref="char:EOLhyphen"/>ſelves, but as they are in him; by his Righteouſneſs imputed, his
+<pb n="9" facs="tcp:176173:5"/> Graces communicated, <hi>Cant. 4. 1. Behold, thou art fair, my Love, behold, thou art fair.</hi>
+            </p>
+            <p n="1">1. By his Righteouſneſs imputed: Chriſt is made Righteouſneſs to them, 1 <hi>Cor.</hi> 1. 30. And they are made Righteous, accounted Righteous in him: nay they are made the Righteouſneſs of God in him, 2 <hi>Cor.</hi> 5. 21. Now Chriſt looks upon us in this Righteous<g ref="char:EOLhyphen"/>neſs, and ſo accounts us lovely. Hence he is ſaid to ſee no ini<g ref="char:EOLhyphen"/>quity in <hi>Jacob:</hi> not that there was none, but he ſees it not; look<g ref="char:EOLhyphen"/>ing on us in his own Righteouſneſs. Now they are pardon'd, and as fully pardon'd, as if they had never ſin'd: Therefore we read, <hi>Jer.</hi> 50. 20. <hi>The iniquity of Iſrael ſhall be ſought for, and there ſhall be none; and the ſins of Judah, and they ſhall not be found:</hi> Why? <hi>for I will pardon them.</hi> Before they were in their Blood, Filthineſs, Pol<g ref="char:EOLhyphen"/>lution, and ſo ugly, loathſome; but now they are, by this Righte<g ref="char:EOLhyphen"/>ouſneſs, beautiful, lovely, and ſo loved. There is Chriſt's eſſen<g ref="char:EOLhyphen"/>tial, perſonal Righteouſneſs as God; this cannot be communicated: but there is his mediatory Righteouſneſs, wrought as Mediatour. This is imputed to them; and by virtue of this they ſtand juſtified in God's ſight, and therefore loved.</p>
+            <p n="2">2. By his Graces imparted: They are cloathed with Rubies, and Saphires, and all the ſhining Graces of the Spirit. See how Chriſt adorns them, <hi>Ezek.</hi> 16. 9, to 14. And how lovely they are in his ſight, by reaſon of theſe Ornaments! Chriſt is the common Stock of Grace, and they derive from him Grace for Grace, <hi>viz.</hi> of eve<g ref="char:EOLhyphen"/>ry Grace according to their meaſure; <hi>Gratiam novâ gratiâ comula<g ref="char:EOLhyphen"/>tam.</hi> The Father loves his Child, becauſe he is like him. Belie<g ref="char:EOLhyphen"/>vers are changed into God's Image from Glory to Glory, 2 <hi>Cor.</hi> 3. 18. Now they are glorious in his Eyes, and therfore loved.</p>
+            <p n="3">3. Becauſe they are his. Propriety is the ground of Love: We love our own, our own Relations, our own Enjoyments, Houſes, Lands, <hi>&amp;c.</hi> A Believer is Chriſt's own, and therefore loved, <hi>Cant. 7. <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>0. I am my beloved</hi>'s; and then it follows, <hi>his deſire is to<g ref="char:EOLhyphen"/>wards me.</hi> They are his Friends, his Favourites, his Members, his Spouſe, his <hi>Hephzibahs,</hi> his <hi>Beulahs,</hi> Iſa. 62. 4. his Jewels, <hi>Mal.</hi> 3. 17. his Treaſure; <hi>and where the treaſure is, there will the heart be alſo,</hi> Matth. 6. 21.</p>
+            <p n="1">1. They are his choſen Ones, <hi>John 15. 16. Ye have not choſen me, but I have choſen you.</hi> Indeed there is nothing to cauſe him to chuſe, but his own Love. <hi>Miſericordia ejus praevenit ſecundum gra<g ref="char:EOLhyphen"/>tiam,
+<pb n="10" facs="tcp:176173:6"/> non ſecundum debitum,</hi> Aug. God's Love is Eternal, and there<g ref="char:EOLhyphen"/>fore can have no cauſe but it ſelf: for, <hi>Non eſt gratia, ſi praeceſſerint merita,</hi> as <hi>Aug. 2 Tim.</hi> 1. 9. There purpoſe and grace are put to<g ref="char:EOLhyphen"/>gether. Chriſt loved them, therefore he hath choſen them; now he hath choſen them, therefore loves them.</p>
+            <p n="2">2. They are his purchaſed Ones: They are bought with a price, 1 <hi>Cor.</hi> 6. 20. and that not a little one neither. They are purchaſed at a dear rate; they coſt no leſs than Blood: and that, not the the Bloud of Bulls and Goats. <hi>Hebr.</hi> 10. 4. nor the Blood of meer Man, but the Blood of Chriſt: nothing but Blood could do it, pre<g ref="char:EOLhyphen"/>cious Blood, and that the precious Blood of the precious Chriſt, 1 <hi>Pet.</hi> 1. 18, 19. nay farther, the Blood of God, <hi>Acts</hi> 20. 28. for if the Divine Nature had not been hypoſtatically united to the hu<g ref="char:EOLhyphen"/>man, it would not have made the Purchaſe. O what a Price is here! ſurely theſe muſt needs be precious Souls, dearly beloved Souls, that coſt ſuch a price; and Chriſt muſt needs love them highly, for they are all the Fruit of his precious Blood, all the Income that he is ever like to have for this ineſtimable Price. Thus we ſee that there is great Reaſon (though all from himſelf) why Chriſt loves Believers with ſuch a ſurpaſſing Love.</p>
+            <p>Object. <hi>It doth not appear by God's Dealings with them in the World, as if he loved them ſo; but rather, as if he loved others more, and ha<g ref="char:EOLhyphen"/>ted them: Others have the ſweet, and they have the bitter; others have their Eyes ſtand out with fatneſs, and have more than Heart can wiſh: when the Godly are</hi> chaſten'd every Morning, <hi>Pſal.</hi> 73. 4. to 7, 14.</p>
+            <p>
+               <hi>Anſw.</hi> It is true, God doth often exerciſe his People with croſs Providences, contrary Dealings: They are in Trouble, when others are in Peace; they are in Sorrow, when others are in Joy: but this is in infinite Wiſdom and Love to them. Theſe, if rightly un<g ref="char:EOLhyphen"/>derſtood, ſpeak Love; and God ſhould not love them ſo much, if he did not deal thus with them.</p>
+            <p n="1">1. It is to correct them for their Miſcarriages. If a Father ſhould ſee his Child run on in ways tending to his own Ruine, and not correct him, would you not judge he rather hated then lov'd him? So when God ſees his Child grow undutiful, diſobedient, fall into ſuch ways as tend to his Perdition, Is it not his great Love to uſe his Rod, rather than loſe his Child? <hi>Whom I love, I rebuke and chaſten,</hi> Rev. 3. 19. I rebuke, but yet I love; yea, I rebuke, be<g ref="char:EOLhyphen"/>cauſe
+<pb n="11" facs="tcp:176173:6"/> I love. The Reaſon is evident; it is to take away his Sin, which would undoe him, <hi>Iſaiah</hi> 27. 9. By this ſhall the Iniquity of <hi>Jacob</hi> be purged, and it ſhall be the Fruit of it, to take away his Sin. As the Rod is better than Death, than Hell; ſo it is greater Love to ſcourge him, then to ſpare his Child. God had one Son without Sin, but never a Son without Sorrow, <hi>Heb.</hi> 12. 6, 10. <hi>Whom the Lord loveth, he chaſteneth, and ſcourgeth every ſon whom he receiveth.</hi> But is this Love? Yea, for it is for our profit, that we may be made partakers of his Holineſs. I know, the Children of God are often crying out, <hi>If I belong'd to God, ſurely I ſhould not be ſo afflicted:</hi> As <hi>David, My Foot had almoſt ſlipt,</hi> Pſal. 73. 2, 3. But thou that art a Child of God, if thou weigheſt theſe Things, may'ſt ſee how thou art beholding to God for Afflictions, and croſs Providences; and inſtead of queſtioning his Love, bleſs his Name, that he will take ſo much pains, and be at ſo much trouble with thee. There<g ref="char:EOLhyphen"/>fore let thine Apprehenſions be rectified herein; and ſay as <hi>David, Pſal. 119. 75. I know, O Lord, that thy judgments are right, and that thou in faithfulneſs haſt afflicted me.</hi>
+            </p>
+            <p n="2">2. It is to exerciſe them; to exerciſe their Graces. This was God's End, as far as appears by the Text in <hi>Job</hi>'s great Afflictions and Tryals, 1 <hi>Pet. 1. 6, 7. If need be, ye are in heavineſs:</hi> There is the firſt Particular, to correct them; and then it follows, <hi>for the Tryal of their Faith.</hi> Tribulations are to try the Saints Faith, Love, Patience, Humility, Self-denial, <hi>&amp;c.</hi>
+            </p>
+            <p>Tryals have diſcover'd many to be far otherways than they expected.</p>
+            <p>To try their Faith; Whether they can truſt God under his chi<g ref="char:EOLhyphen"/>dings, and hidings, as well as his ſhinings. It was in this School of Affliction, that <hi>Job</hi> learned this great Leſſon: <hi>Though he ſlay me, yet will I truſt in him,</hi> Job. 13. 15. But how often do Souls find the contrary? O, ſaith a Soul, <hi>I never thought there were ſo much Un<g ref="char:EOLhyphen"/>belief, Impatience, Pride, Stubborneſs in my Heart, as I found under ſuch a Tryal.</hi>
+            </p>
+            <p>To try their Love; Whether they can love God when he ſtrips them. Oh this is a ſweet frame for a Soul to experience: <hi>Well, let God deal with me as he pleaſe, I will love him ſtill.</hi>
+            </p>
+            <p>To try their Submiſſion to the Divine Will and Pleaſure: <hi>I will bear the Indignation of the Lord, becauſe I have ſinn'd against him,</hi> Mich. 7. 9. Yea, and I will bear it willingly, patiently, thank<g ref="char:EOLhyphen"/>fully: It is a Sick-Bed, it might have been a Bed of Flames: It is
+<pb n="12" facs="tcp:176173:7"/> a ſharp Providence, but it might have been Fire and Brimſtone: And I will wait patiently too the Lord's Wiſe and Gracious Diſpoſal. For he will bring me forth to the Light, and I ſhall behold his Righteouſneſs.</p>
+            <p>Here take this <hi>Note:</hi>
+            </p>
+            <p>
+               <hi>Note,</hi> If thou Child of God art enabled to put forth but one Act of Grace, in an Affliction and Trouble, thou art partaker of an in<g ref="char:EOLhyphen"/>finite Benefit and Advantage, which thou haſt cauſe to bleſs God for ever for: For there is more good in one Act of Grace, then there is evil in all the Afflictions and Troubles of the World. And the Reaſon is evident; for that Evil is but temporary, but this Good is eternal. Every Act of Grace ſhall have an eternal Reward, an exceeding and eternal weight of Glory. O what great Miſtakes, not only the World, but the Children of God themſelves lie under, by reaſon of God's dealings with his here. The Wicked are ready to bleſs themſelves in their evil Ways, harden themſelves againſt God's holy and bleſſed Ways, cenſure the People of God; and the Children of God are ready to be diſcouraged and give up all their hopes. But you ſee (precious Souls) that theſe things are not matter of deſponding to you, but rejoycing: Here you may learn what that of the Apoſtle means, <hi>Phil. 4. 4. Rejoyce in the Lord al<g ref="char:EOLhyphen"/>way, and again, I ſay, Rejoyce:</hi> And that, <hi>Rom. 5. 3. We glory in tribulation.</hi>
+            </p>
+            <p n="3">3. It is to better them. To better their Hearts, their Duties, their Graces, their Comforts, their Experiences, their Evidences, they are to humble them, to wean them, to win them, <hi>Pſal.</hi> 37. 37. Let the way be never ſo uncomfortable, the End ſhall be bleſſed.</p>
+            <p>There are Four Times, precious Believers have cauſe infinitely to admire and adore their God and Father for.</p>
+            <p n="1">1. A time of more than ordinary Enjoyment of Chriſt's ſpecial Preſence. God often makes Times of Trouble, Times of ſpecial Enjoyments, that ſome of his People have been ſometimes ready to wiſh for ſuch a Trouble again. Indeed we need not matter where we are, ſo we have God with us; nor what Condition we are in, if we have Chriſt's Preſence: Which made <hi>Luther</hi> ſay, He had ra<g ref="char:EOLhyphen"/>ther be in Hell with Chriſt, than in Heaven without him. Chriſt's Preſence makes every Place, and every Condition an Heaven; Sickneſs an Heaven, Poverty an Heaven, a Priſon an Heaven. And this is that Chriſt vouchſafes to his in all Conditions: ordina<g ref="char:EOLhyphen"/>rily,
+<pb n="13" facs="tcp:176173:7"/> the greater their Trouble, the more of his preſence, <hi>Iſa.</hi> 43. 2. By Fire, and Flouds of Water, we are to underſtand great Trou<g ref="char:EOLhyphen"/>bles: And in theſe they have God's preſence, <hi>Iſa. 63. 9. In all their afflictions he is afflicted, and the angel of his preſence ſaves them: in his love and pity he redeems, and bears and carries them.</hi> Have not Saints cauſe to admire God in all this? Is not this Love?</p>
+            <p n="2">2. A Time of greater Conveyance of Divine Grace. God makes Times of Trouble, Times of encreaſing the Saint's Graces, ſtrength<g ref="char:EOLhyphen"/>ning their Faith, inflaming their love, raiſing their Joys, 1 <hi>Pet.</hi> 1. 8. He ſpake before, <hi>ver.</hi> 6. of a Time of Heavineſs. I have known Souls experience this: They have been at ſuch Times ſo filled with Joy, that they have rejoyced with Joy unſpeakable, and full of Glory, 2 <hi>Cor.</hi> 4. 11. We are deliver'd unto Death, we are in deep Trou<g ref="char:EOLhyphen"/>bles, that we may have more of Jeſus: And how then are we be<g ref="char:EOLhyphen"/>holding to Jeſus?</p>
+            <p n="3">3. A Time of clearer Revelation of Divine Love. This is a Time Believers are to bleſs God for, and this God often makes Times of Trouble to be, 2 <hi>Hoſ. 14. Therefore, behold, I will bring her into the wilderneſs, and there will I allure her: I will ſpeak comfor<g ref="char:EOLhyphen"/>tably to her.</hi> As if God had ſaid, I will bring ſuch a Child of mine into a Wilderneſs-Condition, a Wilderneſs of Trouble; he ſhall not know which way to go, what to do, <hi>&amp;c.</hi> And what then? Then I will ſpeak comfortably to him; <hi>Loquar ad cor,</hi> as the Word ſignifies: I will ſpeak a Word to him, that ſhall do him good at Heart, revive him, chear him rejoyce his Heart. And obſerve how this is uſher'd in: Behold; as if it were ſaid, Behold, ye Children of God, how ye are beholding to your God and Father for your Troubles: Behold what cauſe ye have to bleſs him for them: Behold what cauſe you have to admire him for them. God often makes them as the King's Chamber to his People; wherein he makes them glad, and rejoyce in him; to remember his Love more than Wine, <hi>Cant.</hi> 1. 4 He makes them a Banquetting-houſe to his Children, and his Banner over them is Love: He ſtays them with Flagons: He gives them not only ſips, taſts, cups, but Flagons of Love, of the Wines of his Conſolations. Now are not Believers infinitely beholding to their God and Father for ſuch a time as this? <hi>Cant.</hi> 2. 4, 5.</p>
+            <p n="4">4. A Time of fuller manifeſtation of his Glory: <hi>Acts</hi> 7. 54, 55, 56. when <hi>Stephen</hi> had the Storm of Stones coming about his Ears, then he had the Viſion of the Glory of God, and Jeſus at the Right<g ref="char:EOLhyphen"/>hand
+<pb n="14" facs="tcp:176173:8"/> of God. I knew a gracious Woman, upon a ſick Bed, in vio<g ref="char:EOLhyphen"/>lent Bodily Pains, and alſo great Diſtreſs of Soul, after a little time, the Lord was pleaſed to break in upon her with ſuch <hi>glorious Light</hi> (as ſhe expreſs'd it) as filled her with ſuch Joy and Conſola<g ref="char:EOLhyphen"/>tion, that all her Bodily Pains were immediately gone, and ſhe felt not the leaſt Bodily Grievance. Another, by reaſon of Bodily and Soul Diſtreſs together, was become Bed-rid, ſeemingly at the Gates of Death; and upon a Miniſter's Praying with her, ſhe cried out, <hi>He is come! He is come! He is come!</hi> and ſhe was filled with Joy unſpeakable and Glorious. Lay all theſe together, and it will fully appear, notwithſtanding all Objections to the contrary, that this Doctrine ſtands firm and invincible; that the Love of Chriſt to Believers is a Surpaſſing Love.</p>
+            <p>
+               <hi>Uſe</hi> 1. Then, Oh! the Miſery of thoſe that have no part in this Love of Chriſt! that are not taken with Chriſt, notwithſtanding this Love! that preferr, or ſeek after any thing more than this Love of Chriſt! Oh, ye vile Drunkards, that preferr a Luſt, a Pot-Com<g ref="char:EOLhyphen"/>panion before this Chriſt! Oh, ye covetous Worldlings, that preferr a good Bargain, Corn, and Wine, and Oil, before this Chriſt! Oh, ye voluptuous Ones, that preferr vain empty Pleaſures before this Chriſt, ſo full of Love, and Grace, and Glory! how will ye anſwer it at the Great Day! how will ye look this Chriſt in the Face at the Laſt Day! Oh, ye vain Temporizers, that are for the Love and Favour of Men, more then the Love of Chriſt! Oh, ye beſotted, blind, ſecure Ones that are ſetled on your Lees! ſee not your need of this Chriſt! What will become of you? Are there not many that ſee no Need of him, no Beauty in him, that they ſhould deſire him? that ſay of him, as the Daughters of <hi>Jeruſalem</hi> to the Spouſe, <hi>What is thy beloved more than another beloved?</hi> They ſee no ſuch Excellency and Glory in him, (as hath been ſhewn.) We may ſay of them, as is ſaid of the Children of <hi>Iſrael, Our fathers underſtood not thy wonders in Egypt,</hi> &amp;c. <hi>Pſal.</hi> 106. 7. Great and Wonderful Things the Lord did for them; but they ſaw no Glory therein: Wonderful Things have been ſpoken of the Love of Chriſts but they ſee no Glory in it: Their Hearts are not taken with it. Oh, how ſhall we be able to lament their Miſery, that are not taken with this Love of Chriſt! It was a Saying of one of the Fathers, <hi>If all the World were turn'd into Tears, they were not ſufficient to lament the Miſery of that Soul, that ſees not Excellency in Jeſus Chriſt.</hi> I may ſay here, If all the World, from the Earth to the Empyrean
+<pb n="15" facs="tcp:176173:8"/> Heaven, were full of Tears, yea, Tears of Blood, they were not ſufficient to lament the Miſery of your Souls, that have not an In<g ref="char:EOLhyphen"/>tereſt in this lovely Jeſus. We are not able to expreſs your Miſery: Words will not bear it; the Tongue of Men and Angels cannot declare it. <hi>If any man love not the Lord Jeſus Chriſt, let him be</hi> Ana<g ref="char:EOLhyphen"/>thema, Maran-atha, 1 <hi>Cor.</hi> 16. 22. Let him be accurſed with the greateſt Curſes. The dreadfulleſt Curſes that Law or Goſpel can denounce, are the Portion of Unbelievers: therefore, when our Saviour would denounce the greateſt Torments, he ſaith, <hi>Let them have their portion with the hypocrites and unbelievers.—This is the condemnation, that light is come into the world, and men love darkneſs rather than light,</hi> &amp;c. <hi>Joh.</hi> 3. 19. Chriſt hath brought Light into the World, the Light of Grace and Glory: but the generality of Men love Darkneſs, dark Company, dark Practices, Ways; live in Darkneſs: and this is the Condemnation. <hi>(The) Condemnation;</hi> What is that? Oh! we are not able to expreſs that, how great Condemnation it is, how dreadful Condemnation it is! Oh, that Sinners might dread it before they feel it.</p>
+            <p n="1">1. It is Dreadful, becauſe Wilful: Sinners Wilfulneſs will add to the Dreadfulneſs of it: <hi>Ye will not come to me, that ye might have life,</hi> Joh. 5. 40. Oh, how will this torment, I might have had Chriſt, but would not! Grace and Glory, but would not! I would not Pray! I would not Mourn for my Sins! I would not be Godly! I would have my Luſts! I would be Damn'd! Oh! my Wilfulneſs hath brought me to this Place of Torment!</p>
+            <p n="2">2. Your Condemnation will be inexcuſable, and therefore dread<g ref="char:EOLhyphen"/>ful: <hi>Friend, how cameſt thou hither, without the wedding-garment? And he was ſpeechleſs,</hi> Mat. 22. 12. Sinners, Tremble to think of this! You will be ſpeechleſs; you will have no Excuſe: You cannot ſay, Chriſt was not offer'd you. Now, we Miniſters come to deal with you; we offer you Chriſt; we beſeech you to come to him: but you have many Excuſes, as <hi>Luk</hi> 14. 16, 17, 18. they were called to the Supper, <hi>viz.</hi> Chriſt and his Benefits, but they made their Excuſes to the Servant: But when the Lord himſelf comes to deal with you, as <hi>Mat. 22. 11. Friend, how cameſt thou hither, without the wedding-garment?</hi> How comeſt thou to be with<g ref="char:EOLhyphen"/>out a Chriſt? Was he not offer'd thee? Then he will call his Ser<g ref="char:EOLhyphen"/>vants, his Miniſters, and ask the Queſtion. Did not you offer Chriſt to this Man? Then they will anſwer, Yes, Lord; I was earneſt with him, I did beg of him, as on my Knees, and labour with all
+<pb n="16" facs="tcp:176173:9"/> my might to bring him in, but could not perſuade him. Oh, then you will be ſpeechleſs; you will not have one word to ſay: How will this torment!</p>
+            <p n="3">3. Your condemnation will be intolerable, and therefore dread<g ref="char:EOLhyphen"/>ful, <hi>Luk.</hi> 13. 28. There ſhall be weeping and gnaſhing of teeth, when you ſee <hi>Abraham, Iſaac</hi> and <hi>Jacob</hi> in the Kingdom of Heaven, and your ſelves thruſt out. <hi>There ſhall be gnaſhing of teeth;</hi> it ſpeaks, their intolerable Torment. Oh, how will this torment, to ſee the Husband taken into Heaven, and the Wife ſhut out? the Wife taken into Heaven, and the Husband ſhut out? the Child taken into Heaven, and the Parent ſhut out? the Servant taken into Hea<g ref="char:EOLhyphen"/>ven, and the Maſter ſhut out? your Neighbour taken into Heaven, and your ſelves ſhut out? This will cauſe gnaſhing of Teeth; I had the ſame Means and Opportunities as they; I had Chriſt offer'd me as well as they; I ſate under the ſame Sermons; I had the ſame Calls, but I would not come in. The Refuſals of Chriſt will make Damnation intolerable.</p>
+            <p n="4">4. Your Damnation will be Eternal, therefore Dreadful: <hi>Mat. 25. 41. Depart from me, ye curſed into everlaſting fire.</hi> Oh, Dreadful! Fire, the Lake of Fire, <hi>Rev.</hi> 20. 15. and that for ever, to be burning and ever burning; <hi>where the worm dies not, and the fire is not quenched,</hi> Mark 9. 44. The Chriſtleſs Sinner ſhall burn and roar, and roar and burn, and that for ever; after you have been as many thouſands of millions, and millions of thouſands of Years,; Ages, as as there are Hairs on your Head, Piles of Graſs on the Earth, Stars in the Sky, Sands in the Sea, Drops in the Ocean, you will be no nearer coming out, than at the begin<g ref="char:EOLhyphen"/>ning. O Eternity! Eternity! Eternity! This will cut to the Heart: Then you ſhall ſeek Death, and ſhall not find it: O Death, whither art thou gone? Oh, come and end this doleful Life! Oh, that theſe Pains would break my Heart, and end my Being! Oh, that I might once die! Oh, that I had been a Dog or Toad! Oh, that I had never had a Being! Oh, Sinner, lay <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to heart! Remember, Everlaſting Torment is dreadful Torment <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Time is almoſt gone; Eternity is ready <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o ſwallow you up; <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> haſte, Make haſte to the City of Refuge, before the Avenger <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Blood overtake you.</p>
+            <p>
+               <hi>Uſe</hi> 2. For Exhortation to come in to Chriſt: Sinners, Come, lay in for a ſhare in this Love. Oh, what infinite Pity it is, that any poor Soul ſhould miſs of this Love!</p>
+            <p n="1">
+               <pb n="17" facs="tcp:176173:9"/>1. God is earneſt for your Coming; He would never have ſent his Son elſe: <hi>Joh. 3. 16. God ſo loved the world, that he ſent his only begotten Son, that whoſoever believes in him, ſhould not periſh, but have everlaſting life. God ſo loved;</hi> it was ſo great a Love, that we cannot expreſs: <hi>Ezek. 33. 11. As I live, ſaith the Lord God, I take no pleaſure in the death of ſinners, but that they turn and live: Turn ye, turn ye; why will ye die?</hi> The God of Truth ſwears it; doubles the Call, <hi>Turn ye, turn ye,</hi> expoſtulates the Caſe with you; <hi>Why will ye die?</hi> If you come not, you die; I would not have you: that if you die, it is becauſe you will die. God is ſo earneſt, that he en<g ref="char:EOLhyphen"/>treats you to come and live. God offers Reconciliation in his Son, and ſends his Embaſſadors to beſeech you to come and accept, 2 <hi>Cor.</hi> 5. 19, 20. Oh, how earneſt is he? You are Guilty, Con<g ref="char:EOLhyphen"/>demned Malefactors, and will ye not accept of a Pardon? You are under Wrath, and will ye not accept of Free Love? <hi>How ſhall ye eſcape, if ye neglect ſo great ſalvation?</hi>
+            </p>
+            <p n="2">2. Chriſt is willing: ſo willing, that he took our Nature, and died, <hi>Heb.</hi> 10. 5, 6, 7. compared with <hi>Pſal.</hi> 40. 6, 7, 8. It is ſpoken of Chriſt: Chriſt delighted in Dying, and bearing the Wrath of God for poor Sinners; lo, I come, and I delight in it; lo, I muſt take your Nature, and I delight in it; and if I take your Nature, I muſt take your Sins too, and I delight in it: lo, I muſt take your Curſe and Wrath, and I delight in it: lo, I muſt endure your Death and Hell, and I delight in it: I muſt have the Curſe, that you may have the Bleſſing: I muſt have the Wrath, that you may have the Love: I muſt die, that you may live: I muſt have the Hell, that you may have Heaven, and I delight in it. Oh, how willing is Chriſt to ſave poor Sinners! Ah, Sinners! do you not find your Hearts taken with this Love? When Chriſt was in the World, did he caſt away any one that came to him for Bodily Healing? He came to ſave Souls; will he then refuſe Souls that come to him? He ſate among Sinners; he wept over Sinners. When he was near the Croſs, he ſaith, <hi>I have a baptiſm to be bap<g ref="char:EOLhyphen"/>tized with, and how am I ſtraitned till it be accompliſhed?</hi> Luk. 12. 50. He means his Paſſion: as if Chriſt had ſaid, I muſt endure a bitter Agony in the Garden, ſweat Drops of Blood, and how do I long? I am to die a ſhameful, painful, curſed Death upon the Croſs at <hi>Jeruſalem,</hi> and how do I long till it be accompliſhed? When he was upon the Croſs, he pray'd for his Murdere<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s: when he was riſen, he ſends his Apoſtles to preach the Goſpel, and offer the Be<g ref="char:EOLhyphen"/>nefits
+<pb n="18" facs="tcp:176173:10"/> of his Death, firſt at <hi>Jeruſalem,</hi> Act. 3. 14, 15, 16. O Love in<g ref="char:EOLhyphen"/>deed! They who ſhed his Blood, muſt have the firſt Offer of his Blood. And when he was aſcended, he appears to <hi>John</hi> at <hi>Patmos,</hi> and gave him Commiſſion to write to the Churches, <hi>Rev.</hi> 1. 11. And what does he write? Even a Call to Sinners to come and partake of the Salvation he hath wrought out, <hi>Rev.</hi> 22. 17. <hi>The Spirit and the Bride ſay, Come: And let him that heareth, ſay, Come: And let him that is a-thirſt, come: And whoſoever will, let him take the water of life freely.</hi> How earneſt Chriſt is! Come, Sinners; Come, Come, Come, take me and my Benefits freely: Chriſt is willing, and art not thou willing? Sinner, conſider how this will aggravate thy Damnation. Oh, that every Soul that hears or reads theſe lines may come!</p>
+            <p n="1">1. Labour toſee your Need of Him: You have infinite Need of him, whether you ſee it or no; and your Miſery is the greater, that do not ſee it. Chriſt is offer'd to you, and to the greateſt of Sinners; but you muſt ſee your Need, before you will come. Let a Phy<g ref="char:EOLhyphen"/>ſician come to two Men, the one well, and the other ſick: the Well-Man doth not regard him; the Whole need not a Phyſician; but the Sick-Man is glad of him, to have his Directions, and fol<g ref="char:EOLhyphen"/>low his Preſcriptions.</p>
+            <p n="2">2. Take heed of putting off this work of Believing any longer. Delays are dangerous: Come in to Chriſt ſpeedily: Make haſte, the Judge ſtandeth behind the Door; the Avenger of Blood is at your Heels: If you will have a Chriſt, take him now; to Mor<g ref="char:EOLhyphen"/>row may be too late: This Night thy Soul may be required of thee. Art thou Young? Conſider that Text, <hi>Prov.</hi> 27. 1. that is the Young Man's Text, <hi>Boaſt not thy ſelf of to morrow, for thou know<g ref="char:EOLhyphen"/>eſt not what a day may bring forth.</hi> Heb. 3. 7, 8. <hi>To day, if you will hear his voice, harden not your hearts.</hi> If you do not take him, and take him to day, it is the Hardneſs of your Heart. Art thou an Old Man? Conſider that Text, <hi>Hoſ.</hi> 7. 9. 10. that is the Old Man's Text; it is ſaid of <hi>Ephraim, Strangers have devoured his ſtrength, and he knoweth it not; yea, gray hairs are here and there upon him, and he knoweth not.</hi> Yet they do not return to the Lord, nor ſeek him, for all this. Oh, this is a ſad caſe? What, an Old Man, and a Chriſtleſs Man! an Old Man, and a Prayerleſs Man! an Old Man, and not turn to the Lord, nor ſeek him, for all this? Many will be for putting off the Work till Sickneſs, or Death: Take heed of it; then God may juſtly ſeal you up to Deſtruction. Now, Satan
+<pb n="19" facs="tcp:176173:10"/> will ſay, Repent at Death, but then he will ſay, It is too late. There was a Man that in Sickneſs cried out, <hi>When I was well I would not go to God, but now I have no God to go to. then the Devil bid me repent at death; but now he tells me, It is too late.</hi> Take heed that this be not your Caſe.</p>
+            <p n="3">3. Conſider the danger of neglecting this gracious Offer of a Chriſt. If you go away, and wallow in your Sins, then Con<g ref="char:EOLhyphen"/>demnation will come upon you to the uttermoſt, <hi>Mat.</hi> 11. 22, to 24. Chriſt is there upbraiding the Cities where he had made the Offers of his Grace, and they refuſed: And ſee how dreadful he declares their Caſe to be, how many Woes he pronounces againſt them; he tells them, It ſhall be worſe with them, then with <hi>Sodom,</hi> at the Day of Judgment. Worſe than with <hi>Sodom!</hi> certainly this muſt needs be a dreadful Condition indeed; for <hi>Sodom</hi> muſt needs be a very wicked People. We read <hi>Geneſis</hi> 19. 24. That the Lord rained Brimſtone and Fire from Heaven upon them: Yet you that refuſe Chriſt, ſhall have a hotter Hell than they; more dreadful Torments then <hi>Sodom</hi> and <hi>Gomorrah.</hi> O tremble, Sinners, to think of miſſing of Chriſt. Souls, why ſhould you be worſe for Chriſt? Chriſt, that is the greateſt Mercy that ever came into the World. It will be the greateſt Mercy that ever was to you, if you get into him; but if you miſs of him, you will be infinitely and eternally the worſe for him. In ſome Countries, where they burn their Malefactors, they pour Oil into the Flames to make them more grievous. O fear and tremble to miſs of Chriſt; for this will be as Oil to the Flames: Every Offer of Chriſt will be Oil to the Flames in Hell; every Sermon will be as Oil to the Flames; every Sab<g ref="char:EOLhyphen"/>bath, and Soul-opportunity, will be as Oil to the Flames in Hell. What ſay'ſt thou Sinner? Doſt thou find theſe things affect thee? Doſt thou find thy Heart coming? O away to Chriſt, go and cry for a Chriſt, and wreſtle for a Chriſt, and be reſtleſs for Chriſt Day and Night; or I tell thee from the Lord, thou wilt certainly la<g ref="char:EOLhyphen"/>ment it when it is too late, and that to Eternity: for it is not I, but the Mouth of the Lord hath ſpoken it. O remember, I be<g ref="char:EOLhyphen"/>ſeech you, and forget not, that this very Call will be as Oil to the Flames in Hell. O how will this torment! yonder is my Father in Heaven, my Brother in Heaven, my Neighbour in Heaven; and I was offer'd Chriſt as well as they: I might had Chriſt but would not; I muſt be for ever burning, and tormented in theſe Flames.</p>
+            <pb n="20" facs="tcp:176173:11"/>
+            <p>May we not imagine and expect, that Souls, upon theſe Conſi<g ref="char:EOLhyphen"/>derations, ſhould fly to Chriſt, as Doves to the Windows? And do they not? What is the Reaſon? Oh they are under deluſion about it; they think they are in Chriſt already; they hope to be ſaved by Chriſt. And is not this thy caſe that readeſt theſe Lines? But are not thou deceived? Look well to it, look again and again to it, that thou and others may be undeceived. I ſhall come to a uſe of Tryal: And the Lord help thee to apply every Mark to thy own Heart, diligently, faithfully.</p>
+            <p>
+               <hi>Uſe</hi> 3. For Examination. The Love of Chriſt to Believers is a ſurpaſſing Love: But have we an Intereſt in this Love? as one ſaid, when he looked on the Rain-bow, and therein read God's Covenant never to drown the World more, <hi>Ah! but what is that to me, if I be be drown'd?</hi> So here Chriſt hath infinite Love for his. <hi>But what if I have no part in it?</hi> as he ſaid, <hi>Chriſt is to me a Grief and a Torment, becauſe I have refuſed him, rejected him, have no part in him.</hi> Ah Souls! look and ſearch narrowly into it, that you be not miſtaken: How many Souls are undone meerly by Miſtakes! Therefore <hi>Paul</hi> preſſeth ſo hard this Work of Examination, 2 <hi>Cor.</hi> 13. 5. Examine, prove know your own States; ſee what Grounds you build upon, that you may not think your ſelves loved of God, when you are Reprobates, ſuch as God will never own.</p>
+            <p n="1">1. Where the Love of Chriſt is, there is the Image of Chriſt, 2 <hi>Cor. 5. 17. If any man be in Chriſt, he is a new Creature;</hi> he is tranſ<g ref="char:EOLhyphen"/>form'd into the ſame Image, 2 <hi>Cor.</hi> 3. 18. He hath a Participation of God: He is holy, as God is holy. Chriſt's Beloveds are Holy Ones.</p>
+            <p n="2">2. Where the Love of Chriſt is, there is the Spirit of Chriſt: <hi>If any man hath not the ſpirit of Chriſt, he is none of his,</hi> Rom. 8. 9. And they that have the Spirit of Chriſt, are led by the Spirit, <hi>ver. 14. Gal.</hi> 5. 16, 25. Chriſt's beloved Ones are ſpiritual Walkers. Here is a Touchſtone for Profeſſors.</p>
+            <p n="3">3. Where the Love of Chriſt is upon a Soul, that Soul is a true Lover of Jeſus Chriſt, <hi>Cant.</hi> 2. 16. <hi>My beloved is mine, and I am hi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</hi> Love is the Loadſtone, the attractive of Love. <hi>We love him, be<g ref="char:EOLhyphen"/>cauſe he firſt loved us,</hi> 1 John 4. 19.</p>
+            <p>Object. <hi>Many will reply here, If this be a Mark of the Love of Chriſt, then we hope all is well: We do not queſtion but we love Chriſt as well as any other; and it is pity they ſhould live that do not love Chriſt.</hi>
+            </p>
+            <pb n="21" facs="tcp:176173:11"/>
+            <p>
+               <hi>Anſw.</hi> It is true indeed: But how many deceive themſelves with this? Who queſtions his Love to Chriſt? except it be a few weak doubting Souls: It is hard to perſwade them that they do love Chriſt. The generality of the World, though ignorant, carnal, profane, will pretend to love Chriſt, though they love the World better, a Luſt better: But this is a Love Chriſt will never own. Therefore I ſhall give you ſome Characters of true and ſaving Love to Chriſt; ſuch Love as Chriſt will own.</p>
+            <p>1. A true Lover of Chriſt loves nothing in compariſon of Chriſt, nothing in competition with Chriſt.</p>
+            <p n="1">1. He loves nothing in compariſon of Chriſt: To one that is a ſtranger to Chriſt, the World is lovely, Sins, Luſts lovely; there is a great deal of Beauty and Glory in worldly Riches and Ho<g ref="char:EOLhyphen"/>nours: But when a Soul hath a right view of Chriſt, then <hi>tranſit glo<g ref="char:EOLhyphen"/>ria mundi,</hi> then all worldly Glory is eclipſed, <hi>Phil.</hi> 3. 7, 8. Now all <hi>Paul</hi>'s former Gains are loſs, droſs, dung; not only his worldly, but Phariſaical Gains too. Before, a Man hath a Righteouſneſs of his own, which he highly values, but now all is as filthy Rags.</p>
+            <p n="2">2. He loves nothing in competition with Chriſt. If Houſes, Lands Friends, yea Life it ſelf, ſtand in competition with Chriſt; that he muſt forſake theſe or Chriſt: True love of Chriſt bears down all before it. Now he is enabled to ſay after Chriſt, <hi>Mat.</hi> 16. 24, 25, 26. and follow the Example of that noble Marquis: <hi>Farewel Crown, Kingdom, Wife, Children, and All, that I may go to Chriſt.</hi>
+            </p>
+            <p>Now what ſay'ſt thou Soul? Judge righteous Judgment: Thou loveſt Chriſt, thou ſay'ſt; but doſt thou not love ſomething elſe bet<g ref="char:EOLhyphen"/>ter? Thou canſt not part with a Luſt, or petty Vanity for him. This then is a Love which Chriſt will never own.</p>
+            <p>But, poor doubting Believer! thou may'ſt be here gathering E<g ref="char:EOLhyphen"/>vidences: Thou art afraid thou doſt not love Chriſt ſavingly. But doſt thou love any thing elſe better? If thou find it really in thine own Heart, there is nothing whatſoever that thou-loveſt better than Chriſt; thou may'ſt conclude thou doſt truly love Chriſt: For there is never an Unbeliever in the World, but there is ſomething or other which he loves better than Chriſt.</p>
+            <p>2. A true Lover of Chriſt loves all Chriſt; and all Chriſt above all things.</p>
+            <p>1. He loves all Chriſt. 1. The Perſon of Chriſt, 1 <hi>Cor.</hi> 2. 2. He ſees Beauty and Glory in Chriſt: <hi>John 1. 14. We beheld his glory,</hi>
+               <pb n="22" facs="tcp:176173:12"/> ſaid the Diſciples. You ſee deſireableneſs in his Benefits, but not in his Perſon; then your Love is not right. 2. The People of Chriſt: <hi>Pſal. 16. 3. My delight is in the Saints,</hi> ſaith a true Lover of Chriſt; <hi>theſe are the excellent in the earth.</hi> 3. The Ordinances of Chriſt. <hi>How amiable are thy Tabernacles, O Lord of Hoſts! my Soul longs for them,</hi> ſaith a Lover of Chriſt, <hi>Pſal.</hi> 84. 1, 2. There I was wont to meet with my Beloved; there I have had glorious views of him, ſweet taſts, precious Solacements, delightful Communions; there <hi>I have ſate under his ſhadow with great delight, and his fruit was ſweet unto my taſte: He hath brought me into his banquetting-houſe, and his banner over me was love,</hi> Cant. 2. 3, 4. There I have eaten of his Bread, and drank of the Wine which he hath mingled; there I have been raviſhed with his Loves. 4. The Ways of Chriſt: A Beloved of Chriſt loves his holy Laws and Government; he can experience <hi>David</hi>'s Language, <hi>Pſal. 119. 111. Thy teſtimonies have I taken as mine heritage for ever: for they are the rejoycing of my heart.</hi> A Lo<g ref="char:EOLhyphen"/>ver of Chriſt accounts his ways, not his bondage, but his heritage; not his ſlavery, but his liberty; and that not for a fit, as a Carnaliſt, Formaliſt may ſeem to do, but for ever.</p>
+            <p>Now Soul, thou that art deluded about thy Love to Chriſt, lay theſe things together, and apply them faithfully, and thou may'ſt find it. Thou ſay'ſt thou loveſt Chriſt; that is, his Benefits: but as to his Perſon, thou ſay'ſt, as <hi>Iſa. 53. 2. There is no form, nor comelineſs, no beauty that we ſhould deſire him.</hi> You ſay, you love Chriſt, but his Ordinances are of no value to you. You love Chriſt, but you hate his People, ſcoff at, revile them: 1 <hi>John</hi> 5. 1. That Text tells you, That <hi>he that loves God, loves him alſo that is begotten of him.</hi> You ſay, you love Chriſt, but hate Holineſs; you cannot endure the power of Godlineſs: Holy Duties, Religious Exerciſes are not your heritage, but your bondage; not your liberty, but your ſlavery. Soul, do not let Satan gull thee; that love of thine is but a coun<g ref="char:EOLhyphen"/>terfeit Love, which thou may'ſt go to Hell with.</p>
+            <p>2. He loves all Chriſt above all things: 1. Above all things on Earth 2. Above all things in Heaven. <hi>Cant.</hi> 5. 10. Chriſt is the <hi>chief among ten thouſand</hi> to him; yea, as <hi>verſe</hi> laſt, <hi>altogether lovely.</hi> All deſires: (1.) Above all things on Earth, <hi>Mat.</hi> 10. 37. <hi>If any man love father or mother more then me, he is not worthy of me.</hi> Father and Mother are inſtanced as the chief of all worldly Ob<g ref="char:EOLhyphen"/>jects; Son, and Daughter, and Life: Yet if Chriſt be not prefer<g ref="char:EOLhyphen"/>red above all theſe, our Love is ſuch as Chriſt will not own. (2.) A<g ref="char:EOLhyphen"/>bove
+<pb n="23" facs="tcp:176173:12"/> all things in Heaven, <hi>Pſal. 73. 25. Whom have I in heaven but thee; and there is none in earth I deſire in compariſon of thee.</hi> Soul, apply this to your ſelf: Do you love Chriſt above all things? Then it is a Love which Chriſt will own. 3. A True Lover of Chriſt, his Heart is taken up with Chriſt; his Life is taken up with Chriſt.</p>
+            <p n="1">1. His Heart is taken up with Chriſt: Chriſt is much in his Thoughts, Deſires, Meditations, <hi>Cant. 1. 13. A bundle of myrrh is my beloved unto me, he ſhall lie all night betwixt my breaſts.</hi> Can you ſay you love Chriſt, and he is little in your thoughts? Lovers cannot but have their thoughts run upon one another. The World is much in your thoughts: vain Company, Pleaſures, the Profits of the World much in your thoughts, and Chriſt but little in your thoughts: Theſe things ſhew you have but little Love to Chriſt. It is the Character of a Beloved of Chriſt; <hi>Chriſt ſhall be as a bun<g ref="char:EOLhyphen"/>dle of myrrh to me:</hi> Myrrh was of fragrant ſmell, and delightful: Chriſt ſhall be ſweet unto my Thoughts; Chriſt ſhall delight my Heart, ſaith a gracious Soul.</p>
+            <p n="2">2. His Life is taken up with Chriſt.</p>
+            <p n="1">1. He ſpeaks Chriſt much, <hi>Pſal. 37. 30, 31. The mouth of the righteous is as choice ſilver, and his tongue talketh of judgment.</hi> Lovers are much talking of one another. Is Chriſt little in your Mouth? It is a ſign he is little and low in your Heart.</p>
+            <p n="2">2. He lives Chriſt, <hi>Gal. 2. 20. The life that I live, I live by the faith of the ſon of God:</hi> His Care and Endeavour is to live a Chriſt<g ref="char:EOLhyphen"/>like Life, a Goſpel-life. Do you love Chriſt, and live in ſin and wickedneſs in open rebellion againſt Chriſt? <hi>You have not ſo learned Chriſt,</hi> Epheſ. 4. 20. to 24. If you love Chriſt, and have learned Chriſt, you will put off the old Man with his corrupt Deeds, and put on the new Man of Righteouſneſs and True Holineſs, or elſe your Love to Chriſt is but a Fancy.</p>
+            <p>Object. <hi>If this be a Character of a Beloved of Christ, I am afraid I have not a dram of True Love to Chriſt: O how little do I live Chriſt! How contrary do I live to Chriſt?</hi> This may be the Objection of a weak Believer.</p>
+            <p>
+               <hi>Anſw.</hi> You muſt not judge of your ſelf by the meaſure of Grace, but by the truth of Grace. Chriſt will not bring a pair of Balances to weigh your Graces, but a Touchſtone to try the Truth of them. The beſt of Saints are far ſhort of the Life they ought to i<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e; far ſhort of the Pattern Chriſt hath ſet them. You muſt not expect to
+<pb n="24" facs="tcp:176173:13"/> attain it legally, but evangelically; not perfectly, but ſin<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erely. But is it your chief Care and Buſineſs? Thus it is with every Belo<g ref="char:EOLhyphen"/>ved of Chriſt. Can you in truth and ſincerity ſay with <hi>David,</hi> Pſal. 119. 5, 6, 7, 112. The beſt of Saints are more in deſires and endeavours then attainments. Here is the Mercy, we have to deal with God in a Covenant of Grace: And this is the Glory of it, That it accepts of ſincerity for perfection. According to the te<g ref="char:EOLhyphen"/>nour of it, a Chriſtian is what he ſincerely deſires and endeavours to be, 2 <hi>Cor.</hi> 8. 12. <hi>If there be firſt a willing mind, it is accepted, accord<g ref="char:EOLhyphen"/>ing to what a man hath, and not according to that a man hath not.</hi>
+            </p>
+            <p>Doubting Soul, Are theſe the real Workings of thy Heart? <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>that my ways were directed to keep thy ſtatutes!</hi> O that there were ſuch an Heart in me! O that I could wholly live to God! O that I might never ſin more! O that I could come up to the whole Will of God; that I could attain to the top of Holineſs! This, according to the Covenant of Grace, is living Chriſt: And here thou haſt an Evi<g ref="char:EOLhyphen"/>dence of true Love to Chriſt.</p>
+            <p>4. A true Lover of Chriſt earneſtly longs for a nearer con<g ref="char:EOLhyphen"/>junction to Chriſt, fuller communion with Chriſt in Grace, in Glory.</p>
+            <p n="1">1. In Grace: <hi>Iſa.</hi> 26. 8, 9. The deſire of the Soul is to his Pre<g ref="char:EOLhyphen"/>ſence; it cannot live without the Preſence of Chriſt: When it goes to a Duty, it is the Preſence of Chriſt it breaths after. <hi>O <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> wilt thou come unto me?</hi> Pſal. 101. 2. O that I may have commu<g ref="char:EOLhyphen"/>nion with thee! <hi>Tell me, O thou whom my ſoul loveth, where th<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> feedeſt, where thou meeteſt with thy flocks: O let me not be of th<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> that turn aſide,</hi> Cant. 1. 7. <hi>My ſoul breaketh with longing,</hi> &amp;c. Pſal. 119. 20.</p>
+            <p>Doubting Soul, Canſt thou read theſe in thy Heart? thou <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> an Evidence of true Love to Chriſt. But thou (Soul) that <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> live without the Preſence of Chriſt; canſt go all the Day, all <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Week without his preſence, and be quiet; company of <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> worldly Enjoyments can content thee: Thou haſt cauſe to <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> nay thou mayeſt conclude, thou haſt not a dram of Saving-love <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Chriſt in thy Soul.</p>
+            <p n="2">2. In <hi>Glory,</hi> Pſal. 42. 1, 2. <hi>O when ſhall I come and appear <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> thee?</hi> When ſhall I have the full Enjoyment of Thee? Theſe <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the workings of a gracious Soul. I have had ſome glympſes <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> times; Oh, how glorious are they! Oh, when ſhall I ſee his <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>Rev.</hi> 22. 4. We have ſome little Enjoyment of his Preſence <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb n="25" facs="tcp:176173:13"/> times; ſome times ſolace our ſelves with Love: and bleſſed be the Lord for them. But how ſoon are they loſt again? Oh, when will the time come, when we ſhall enjoy him fully, without ceſ<g ref="char:EOLhyphen"/>ſation, without intermiſſion, for ever, and ever, and ever! when we ſhall be for ever with the Lord: 1 <hi>Theſ.</hi> 4. 17. <hi>I deſire to be diſ<g ref="char:EOLhyphen"/>ſolved, and to be with Chriſt—Moriar Domine, ut te videam; nolo vivere, volo mori,</hi> Auguſt.
+<q>Let me die, Lord, that I may ſee thee; I will not live, I will die.</q>
+               <hi>—Make haſte, my Beloved, and be like to a roe or hart on the mountains of ſpices,</hi> Cant. 8. <hi>ult.</hi> Come, Lord Jeſus; Come quickly.</p>
+            <p>
+               <hi>Note,</hi> Becauſe I would not diſcourage the weakeſt Believer, You may take notice, That <hi>Love</hi> may be conſider'd in the <hi>ſpark,</hi> or in the <hi>flame;</hi> and that this laſt Particular ſpeaks Love rather in the <hi>flame.</hi>
+            </p>
+            <p>5. A true Lover of Chriſt thinks nothing too much to doe, nothing too much to ſuffer for Chriſt.</p>
+            <p n="1">1. Nothing too much to doe for Chriſt. Lovers think they can never doe too much for one another: <hi>Gen. 29. 20. Jacob</hi> ſerved ſeven Years for <hi>Rachel,</hi> and they ſeemed but as a few Days, for the Love he had to her. A Beloved of Chriſt thinks he can never Pray too much, Hear too much, Doe too much in the Work of Chriſt. Is it not otherwiſe with thee? Thou think'ſt thou can'ſt never doe too much for the World. Is not this thy Character, we read of, <hi>Eccleſ.</hi> 4. 8? There is no end of all his labours for the World, Plowing, Sowing, Riding, Running, Carking, Caring for the World; early and late, thou never thinkeſt this too much; but thou takeſt little Pains for Chriſt. If one hour will not ſerve for the World, thou wilt riſe ſooner: But I appeal to thy own Heart, when did'ſt thou an hour the earlier for Prayer, to cry to God for a Chriſt? Thou art ſoon weary of theſe, and thinkeſt it more adoe than needs. This ſpeaks little Love to Chriſt.</p>
+            <p n="2">2. Nothing too much to ſuffer for Chriſt.</p>
+            <p>1. He thinks not too much to ſuffer Reproaches for Chriſt, <hi>Heb.</hi> 11. 26. He accounts them his Riches, Glory, 1 <hi>Pet.</hi> 4. 14.</p>
+            <p>He thinks not too much to ſuffer Loſſes for Chriſt, loſs of Goods, of Good Name, <hi>Heb.</hi> 10. <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>4. He believes he ſhall be no Loſer by it, <hi>Mat.</hi> 19. 29. He hath this Principle rooted in his Heart, That he may loſe much for Chriſt, but ſhall never loſe by Chriſt.</p>
+            <p>3. He thinks it not too much to ſuffer Death for Chriſt, <hi>Rev.</hi> 12. 11. They loved not their Lives unto the death, <hi>Act.</hi> 21. 13.</p>
+            <p>6. A true Lover of Chriſt is exceedingly caſt-down at the with<g ref="char:EOLhyphen"/>drawings of Chriſt, and ſolaced with the returns of Chriſt.</p>
+            <p n="1">
+               <pb n="26" facs="tcp:176173:14"/>1. He is exceedingly caſt-down at the withdrawings of Chriſt. All his Peace and Comfort is gone, when Chriſt is gone. The Spouſe loſt Chriſt; He withdrew himſelf: And how was it with her? Her Soul failed; ſhe was as ſwooning, dying. As <hi>Jacob</hi>'s life was bound up in the Lad's life, ſo is a Believer's life, and all the comforts of it, in Chriſt. He ſaith, as <hi>Abſolon,</hi> when ſhut out from his Father's Preſence, <hi>Let me die, if I may not ſee his face;</hi> ſo ſaith the Beloved of Chriſt. And I have heard ſome Souls crying out moſt hideouſly, under Divine Withdrawings, Oh, I cannot bear theſe Withdrawings! I cannot live without God's Preſence! I had rather die a thouſand Deaths, than be in this Condition! Woe! Woe! Woe is me! I ſojourn in <hi>Meſech,</hi> and dwell in the Tents of <hi>Kedar!</hi>
+            </p>
+            <p>Thou Soul, that knoweſt not what theſe things mean, can'ſt read theſe in thine Heart, whatever thy Doubtings and Miſ-givings of Heart may be, about thy love to Chriſt, thou may'ſt look upon them as Evidences of it: let not Satan rob thee of thy peace and comfort: be not faithleſs, but believing; and believing, re<g ref="char:EOLhyphen"/>joyce with joy unſpeakable, and full of glory. But if thou that readeſt theſe lines, art one that can endure diſtance from God, you cannot bear diſtance from Friends, and thoſe you love, but it is a great diſquiet to you; but you can be without God, and it never troubles you: let not Satan gull thee, nor thy Heart deceive thee; for I tell thee from the Lord, That thou haſt not the leaſt ſpark of Saving Love to Chriſt.</p>
+            <p n="2">2. He is exceedingly revived, rejoyced at the returns of Chriſt. He ſaith, as <hi>Mephiboſheth, Let him take all, ſince my Lord is come back.</hi> Let Worldlings take the World, ſo I may have Chriſt: Let Pro<g ref="char:EOLhyphen"/>fane Ones take their Luſts, ſo I may love Chriſt: let Voluptuous Ones take their Pleaſures, ſo I may have Chriſt: let Ambitious Ones take their Honours, ſo I may have Chriſt. I have enough: <hi>The lines are fallen to me in pleaſant places; yea, I have a goodly heritage,</hi> Pſal. 16. 5, 6. <hi>Return to thy reſt, O my ſoul, for the Lord hath dealt boun<g ref="char:EOLhyphen"/>tifully with thee,</hi> Pſal. 116. 6, 7.</p>
+            <p>
+               <hi>Uſe</hi> 4. What Encouragement is here for poor awakened Soul<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> that are diſtreſſed for a Chriſt? Oh, here is a Jeſus full of love matchleſs love! away to him: He is all love to coming Souls; he is all wrath to Unbelievers, to Sinners that ſtand it out againſt him: he ſaith, Thoſe mine Enemies that will not come, bring hither and <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> before me. But he is all love to coming ſouls; he ſtands with open Arms ready to receive them: his Heart is full of love, Hands full of love; Come, poor Sinners, here is my Blood, my Love, my Pur<g ref="char:EOLhyphen"/>chaſes,
+<pb n="27" facs="tcp:176173:14"/> my Benefits, all for thee; away with all your doubts and fears; do not diſpute your ſelves out of Chriſt.</p>
+            <p>Obj. <hi>Oh, but I am vile! ſo vile, I dare not come!</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> What if thou art never ſo vile, if Chriſt hath love enough to ſwallow up all thy vileneſs, then this need not hinder thy coming to Chriſt; his love is infinite, boundleſs, bottomleſs: thy ſin is but the ſin of a finite Creature, his love is the love of an Infinite God: <hi>Jer.</hi> 3. 12, 13, 14. <hi>Go and proclaim theſe words, and ſay, Return thou backſliding Iſrael, ſaith the Lord, and I will not cauſe mine anger to fall upon thee; for I am merciful, ſaith the Lord.</hi> God gives Commiſſion to his Mi<g ref="char:EOLhyphen"/>niſters to go and proclaim, That if Sinners will come to him, they ſhall have Mercy: Soul, this I have commiſſion from the Lord to tell thee, That if thou wilt come in to the Lord, thou ſhalt have Mercy: the Mouth of the Lord hath ſpoken it.</p>
+            <p>Obj. <hi>Oh, but I am a great Sinner! If I were not ſo great a Sinner, I could hope!</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> What if thy ſins are never ſo great, if the love of Chriſt be greater? <hi>Iſa. 1. 18. Come, ſaith the Lord; and though your ſins be as ſcarlet, they ſhall be as white as ſnow; though they be red like crimſon, they ſhall be as wool.</hi> As if he had ſaid, Let your Sins be never ſo great, of never ſuch a Crimſon dye; yet if you will but come, you ſhall have Mercy: Though thy ſins have weaken'd the Law, and made that unable to ſave thee; yet it hath not weaken'd Chriſt, <hi>Rom.</hi> 8. 3. Chriſt came to doe that, which the Law could not doe: <hi>Heb.</hi> 
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. 25. 26 That Text tells you, That he is able, to the uttermoſt, to ſave thoſe that come: Chriſt is able, to the uttermoſt of your ſins, to the uttermoſt of your doubts and fears, neither quantity nor qua<g ref="char:EOLhyphen"/>lity of your ſins can poſe Chriſt. There is not ſo much evil in all thy ſins as there is fulneſs in Chriſt, <hi>Mark</hi> 9. 23. Let thy ſins be what they will, pardon and ſalvation are poſſible, if thou doſt be<g ref="char:EOLhyphen"/>lieve. The Blood of Chriſt is ſufficient to drown Mountains as well as Mole-hills. If thou ſeeſt ſtill more and more ſins, though legions of Luſts and Devils, yet all ſhall not hinder thy ſalvation, if they do not hinder thy coming to Chriſt</p>
+            <p>Obj. <hi>Oh, but my Sins are ſo many, immumerable Evils compaſs me about, that I am not able to dare to look up.</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> What if thy ſins are never ſo many, if the love of Chriſt be much more? Why ſhould this hinder thy coming? And this he hath declared, <hi>Rom. 5. 20. Where ſin abounded, grace did much more abound.</hi> If thy Sins be never ſo abundant, if the Grace of Chriſt ſhall abound much more, why ſhould they hinder coming? <hi>Iſa.</hi> 55. 7.
+<pb n="28" facs="tcp:176173:15"/> Oh, come, Soul, throw away all thy Doubts, and come, and the Lord will multiply to Pardon: He will make his Pardons more th<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> thy Sins. Oh, away to Chriſt!</p>
+            <p>Obj. <hi>Oh, but I am afraid it is too late! If I had gone ſooner, I might have had mercy; but now I fear it is too late.</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It is never too late, whilſt Chriſt calls: And Chriſt calls thee, after all this: <hi>Jer. 3. 6, 7. Judah</hi> there had multiplied her Abomi<g ref="char:EOLhyphen"/>nations; yet ſays the Lord, <hi>I ſaid, after ſhe had done all theſe things, Turn unto me.</hi> This is the Voice of the Lord Jeſus to thee. Ah, Sinner, thou halt multiplied thy Tranſgreſſions; yet I ſay unto thee, after all theſe, Come unto me. Ah, poor Soul! thou art going headlong to Deſtruction; I pity thee; my Bowels yearn towards thee: come to me; here is my Blood, my Love, my Grace, my Glory, my All: come, and I am thine, and all mine are thine. Doſt thou not yet believe? Oh, dreadful! Then thou makeſt God a Lyar, 1 <hi>Joh.</hi> 5. 10. What? make Chriſt a Lyar! It is a plain caſe, Chriſt ſaith, Come, and I will pardon, love, ſave thee. Thou fay'ſt, He will not; you dare not believe him; you dare not come.</p>
+            <p>But to plead a little further with thee: O that thou would'ſt come! come and <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ee! come and try! come and venture!</p>
+            <p n="1">1. Come! The Deſignation of Chriſt is for thee, <hi>Iſa.</hi> 61. 1, 2, 3. It is ſpoken of Chriſt: He is anointed for this very end, appointed of the Lord to bind up broken Hearts, comfort mourning Souls, to deliver poor Sinners from their captivity to Sin, the Devil, and Hell, <hi>Mat.</hi> 9. 13. If thou were not a Sinner, thou wert not ſuch a one as Chriſt came to ſave; for he came to ſave Sinners.</p>
+            <p n="2">2. Come! The Invitation of Chriſt is to thee. Art not thou diſtreſ<g ref="char:EOLhyphen"/>ſed for a Chriſt? Then be of good comfort; Riſe, he calleth thee, <hi>Mat.</hi> 11. 28. Art not thou a-thirſt? Doſt thou not long for Chriſt? Then be of good comfort; Come, he calls thee, <hi>Iſa. 55. 1. Rev.</hi> 22. 17. It is every one that is burden'd, it is every one that is a-thirſt; there<g ref="char:EOLhyphen"/>fore thou.</p>
+            <p n="3">3. Come! And the Promiſe is to thee, <hi>Joh. 6. 37. Him that cometh, I will in no wiſe caſt out.</hi> It is, <hi>whoſoever cometh;</hi> therefore it is thou, if thou comeſt: thou ſhalt certainly be received; by no means in the world rejected: <hi>Joh. 3. 16. Whoſoever believes in him, ſhall have ever<g ref="char:EOLhyphen"/>laſting life:</hi> Whoſoever doth it; therefore, if you come, the Promiſe is yours: It is not ſaid, If you be not a great Sinner; If you have not abundance of ſins; If you have not continued long in ſin: No, No; it is, <hi>Whoſoever</hi> cometh; be he a great Sinner, an old Sinner, if he comes, he ſhall have Eternal Life: Come then, and the Promiſe is
+<pb n="29" facs="tcp:176173:15"/> to thee: Chriſt is thine; the Promiſe thine; Eternal Life thine.</p>
+            <p n="4">4. Come! The Heart of Chriſt is towards thee: <hi>Hoſ. 2. 14. I will allure her, and bring her into the wilderneſs, and ſpeak comfortably to her.—Poſtquam perduxero eam,</hi> (as <hi>Tremellius</hi> hath it.) God humbled the Fathers in the Wilderneſs, and then brought them to <hi>Canaan.</hi> Hath God humbled thee? broke thy Heart for thy Sins? Come to him, and he will ſpeak a word to thee, that ſhall do thee good at heart: He will tell thee, His Chriſt is thine; His Love is thine, <hi>&amp;c.</hi> ver. 19. <hi>I will betroth thee to me in righteouſneſs and judgment, and in loving-kindneſs and mercy.</hi> The Scripture makes mention of Eſpouſals, and of Marriage, to expreſs the great Myſtery of the Grace of God to Souls. It is ob<g ref="char:EOLhyphen"/>ſervable, That this gracious Promiſe comes in after the mention of their great Wickedneſs, <hi>ver.</hi> 3. What doth all this ſpeak to thee, but as if God ſhould ſay, Thou haſt been a vile Wretch, and I might juſtly caſt thee off for ever; but I am merciful, I am gracious; come to me; and if thou doſt come, as ſurely as thou comeſt to me, I will marry thee? As I am a Righteou; God, as I am a God of Faith<g ref="char:EOLhyphen"/>fulneſs, yea, I will marry thee in loving-kindneſs: my Bowels are in it; I will, I will, I will; I will betroth thee to me in Faithfulneſs, and thou ſhalt be mine. Soul, Do'ſt yet Believe? Wilt thou venture upon Jeſus Chriſt?</p>
+            <p n="5">5. It is for his Intereſt to receive thee: As Chriſt's Heart is upon the Work, ſo his Intereſt is in it: He will loſe his Blood elſe, as to you, <hi>Iſa.</hi> 53. 11. His Soul is in travail for thee: He will not be ſatis<g ref="char:EOLhyphen"/>fied till thou comeſt. Will not this Argument prevail with thee? Oh, go and ſatisfie Chriſt's Travail!</p>
+            <p n="6">6. Come, for it is Chriſt's Office to receive thoſe Souls that come, and he is faithful, <hi>Hebr.</hi> 2. 17. He is an Highprieſt: It is his Office to make Reconciliation for Sins; and he is faithful. Chriſt would not be faithful if he ſhould refuſe one Sinner that comes to him. O what Encouragement is here for poor Sin-ſick Souls that are diſtreſſed for a Chriſt! Lay all theſe Things together: Chriſt is appointed for thee; Chriſt calls thee to come to him; he pro<g ref="char:EOLhyphen"/>miſes to receive thee if thou comeſt; his Heart is upon it; it is for his Intereſt to receive thee; he ſhould not be faithful if he refuſe thee. O away, away to Chriſt: Caſt away all thy Doubts and Fears; venture again upon Chriſt: Caſt thy ſelf upon him in the Promiſe, and he is thine. Beno more faithleſs, but believing.</p>
+            <p>Will you not yet believe? Will you not yet come? If you do not</p>
+            <p n="1">1. You leſſen the Grace of Chriſt: You make the Grace of Chriſt to be leſs than your Sins: You want only a view of the Greatneſs,
+<pb n="30" facs="tcp:176173:16"/> Riches, Infiniteneſs of the Grace of God in Chriſt, <hi>Epheſ.</hi> 2. 6, 7, 8. Here is Grace, Riches of Grace, exceeding Riches of Grace in Chriſt: 1 <hi>Tim.</hi> 1. 13, 14, 15. Lo the Gradations; Grace, Riches of Grace, exceeding Riches of Grace, exceeding abundant Grace Here is Grace abundantly exceeding all your Sins. O let this Grace conſtrain you to believe: Come to Jeſus.</p>
+            <p n="2">2. You limit the Grace of Chriſt: As if it were enough for o<g ref="char:EOLhyphen"/>thers, ſuch a Sinner, and ſuch a Sinner, but not for you. It was <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Brand upon the Iſraelites that they limited the Holy One of <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> They ſpake againſt God.</hi> What did they ſay? <hi>Can God furniſh a <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> in the wilderneſs? He clave the rock, and the waters came: Can <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> bread alſo?</hi> Pſal. 78. 19, 20, 41. O the unreaſonableneſs of Unbel<gap reason="illegible" resp="#APEX" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> Certainly he that could turn the Rock into Water, could (if he plea<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> turn it into Bread. Is not this your Caſe? As if you ſhould <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> He can pardon others, but can he pardon me? Can he over <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> all my Sins? This is to limit the Grace of Chriſt.</p>
+            <p n="3">3. You diſhonour the Grace of God His Wiſdom: As if th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> might a better way been found out. His Love: As if htere <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> not enough for you. His Power: As if he was not able to paſs <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſo many Offences. His Truth: And ſo make him a Lyar. <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to deny him to be a God: For if he be God, he is Truth, yea <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> it ſelf. <hi>Abraham</hi> honoured him herein, <hi>Rom.</hi> 4. 20. <hi>He <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> not at the promiſe of God, through unbelief; but was ſtrong in faith, <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ving glory to God.</hi> O it is a clear caſe, it is your unbelief: be <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of it.</p>
+            <p n="4">4. You diſpleaſe God by your unbelief. <hi>Luther</hi> lay under <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> for a time: but when he was lead to this, that nothing was <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> pleaſing to God, then to believe in his Son; the Work was eaſie to <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+            </p>
+            <p>Ah Soul! thou doſt not think how pleaſing it is: Thou can'ſt <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> pleaſe God better, then by believing in Jeſus.</p>
+            <p n="5">5. You grieve Chriſt, and his Spirit, <hi>Pſal.</hi> 95. 10, 11. <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> years was I grieved with this generation, and ſware they ſhould not <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> into my reſt.</hi> Who were they that he was ſo grieved with? <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> may ſee, if you compare it with <hi>Hebr.</hi> 3. 17, 18, 19. They <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thoſe that believed not.</p>
+            <p n="6">6. You provoke God. A Man is provoked, when we will <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> believe him, <hi>Pſal. 95. 8. Harden not your hearts as in the <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> What was the Provocation? <hi>Pſal. 78. 22. Becauſe they <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> in God, and truſted not in his ſalvation. Therefore the Lord was <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> a fire was kindl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d againſt Jacob; and anger came up againſt Iſrael.</hi> 
+               <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſweet Soul! dread this unbelief.</p>
+            <p n="7">
+               <pb n="31" facs="tcp:176173:16"/>7. You loſe all the ſweet Sights and Taſts of Chriſt, and Grace. I ſhall ſay to thee, (as Chriſt to <hi>Martha) John 11. 40. If thou wouldeſt believe, thou ſhouldeſt ſee the glory of God.</hi> O the glorious Grace, and Love you ſhould ſee! You ſhould ſee Chriſt glorious in pardoning Love, comforting Love, ſaving Love.</p>
+            <p>Doubting Soul, here is an open Door, And wilt thou not enter? O venture, venture upon Chriſt: As <hi>Eſther</hi> 4. 16. <hi>If I periſh, I periſh:</hi> As the Lepers at the Gate of <hi>Samaria, 2 Kings</hi> 7. 3, 4. If they went into the City they died; if they ſtayed there they died. The Syrians were their Enemies, they might expect death from them; but being in this dilemma, they ventur'd, and had good Succeſs. Soul, this is juſt thy caſe: If thou ſtay in thy Sins thou dyeſt; thou may'ſt look upon Chriſt as thine Enemy: He may juſtly curſe thee, damn thee; but thou muſt be damned if thou goeſt not to him Thou canſt but periſh; therefore venture on him: Go, and believe, and thou ſhalt certainly have good Succeſs. Ne<g ref="char:EOLhyphen"/>ver any periſhed in this way.</p>
+            <p>Believe, and you exalt the Grace of Chriſt. Chriſt is exalted; <hi>Acts</hi> 5. 31. Grace is exalted; <hi>Iſa.</hi> 30. 18. Are your Sins as great as the Mountains? Are there Mountains of vileneſs, and unworthi<g ref="char:EOLhyphen"/>neſs in the way? Grace is exalted above them all. What is the great Mountain before <hi>Zerubbabel!</hi> It ſhall be made a Plain, and thou ſhall at laſt cry, <hi>Grace, Grace,</hi> Zech. 4. 7.</p>
+            <p>
+               <hi>Uſe 5. [1. Conſolat.]</hi> To all Believers, both weak and ſtrong. O bleſſed are ye of the Lord; ye are partakers of this matchleſs, unparallel Love. Chriſt loves you with a ſurpaſſing Love: A Love that cannot be expreſs'd; a Love that cannot be comprehended: We cannot expreſs the Love that ye are loved with, neither can ye conceive it. Ye are loved, even as Chriſt is, <hi>John</hi> 17. 23. with a great, with an infinite, with an everlaſting Love. <hi>Eye hath not ſeen, nor ear heard, nor heart conceived, the things which God hath pre<g ref="char:EOLhyphen"/>pared for you,</hi> 1 Cor. 2. 9.</p>
+            <p>For Direction, hearken to theſe Counſels.</p>
+            <p n="1">1. Admire this Love, as <hi>Paul</hi> here doth: Indeed you cannot ſuf<g ref="char:EOLhyphen"/>ficiently admire, but be admiring. Cry out as the Apoſtle; <hi>Oh the depth of the riches of the wiſdom and goodneſs of God! How unſearchable are his ways, and paſt finding out!</hi> Rom. 11. 33. O <hi>the height, and depth, and length, and breadth,</hi> of this Love of Chriſt! <hi>Epheſ.</hi> 3. 18. Call in the Help of all the Beloved of Chriſt: Help me, all my Fellow-Diſciples; help me, all ye Friends of the Bridegroom: Join in this Choir, all ye Angels and Archangels. O magnifie the Lord with me, and let us exalt his Nametogether.</p>
+            <p n="2">
+               <pb n="32" facs="tcp:176173:17"/>2. Labour to return Love for Love. Doth Chriſt love you? O d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> you love him? Are you dear to Chriſt? O let Chriſt be dear to you<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Say as the Spouſe, <hi>Cant. 5. 16. This is my beloved, this is my friend.</hi>
+            </p>
+            <p>Love him with a Love of deſire: Love him with a Love of <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> light: Love him with a Love of admiration: Love him with <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Love of Satisfaction: Love him with the Love of Adhaeſion. <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> you cannot ſay you are ſick of Love; be ſick, that you can <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> him no more.</p>
+            <p n="3">3. Take heed, O take heed of abuſing this Love. What a <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thing will it be to abuſe this Love? Is this thy Kindneſs to <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Friend? may Chriſt ſay.</p>
+            <p>Queſt. <hi>When do we abuſe this Love?</hi>
+            </p>
+            <p>
+               <hi>Anſw.</hi> 1. When we indulge our ſelves in Sin. Every Beloved <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Chriſt ſhould ſay, as <hi>Joſeph,</hi> Gen. 39. 9. <hi>How ſhall I do this great wi<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>edneſs, and ſin againſt Chriſt?</hi>
+            </p>
+            <p>2. When we grow remiſs in Duty. 2 <hi>Cor.</hi> 5. 14, 15. O <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Love of Chriſt ſhould conſtrain to be more humble, holy, activ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> diligent; careful to pleaſe, fearful to offend, live at a higher <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> for Heaven.</p>
+            <p>3. When we doubt and queſtion his Love: Give way to <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> giving Thoughts, the Unbelievings of our own Hearts. Chriſt <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> needs take this very ill at our Hands, when he hath given <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> demonſtrations of his Love, that greater cannot be given, <hi>John</hi> 
+               <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 13. <hi>Rom.</hi> 5. 8. Herein God commended his Love, as if a great <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Teſtimony could not be given.</p>
+            <p>Walk anſwerably to this Love. Oh, how ſhould a People ſo <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> loved walk! How earneſtly doth the Apoſtle preſs this? <hi>Epheſ.</hi> 4. <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> He beſeeches them to walk <hi>worthy.</hi> So <hi>Coloſ. 1. 10. That ye may <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> worthy of the Lord, unto all pleaſing.</hi> (Believers) Be ye Humble, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Heavenly, Spiritual, Zealous of Good Works, <hi>Tit.</hi> 2. 14. Be Zeal <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> for Chriſt's Honour, Zealous for his Glory. Lovers can never <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> they do enough for one another; are tender of one another. <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> tender of Chriſt's Name and Intereſt; ſtudy his Love; endeav<gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> to exalt his Name, his Love, his Honour and Glory. Oh, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> manner of Perſons ought ye to be, in all holy Converſation and <gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>lineſs? 2 <hi>Pet.</hi> 3. 11. Make this the Care and Buſineſs of your <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> love Chriſt, live Chriſt, glorifie Chriſt: And when Chriſt, who <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> your Life, ſhall appear, then ſhall ye alſo appear with him in Glo<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
